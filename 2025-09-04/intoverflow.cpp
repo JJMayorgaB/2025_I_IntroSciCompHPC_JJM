@@ -25,7 +25,6 @@ void integraloverflow(int & a)
         n++ ;
         std::cout << n << ". " << a << std::endl;
         
-
     }
 
     std::cout << "Overflow occurred! (Undefined behavior) at interation #" << n << std::endl;
