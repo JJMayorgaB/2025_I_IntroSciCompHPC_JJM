@@ -1,17 +1,33 @@
 #include <iostream>
 
+void integraloverflow(int & a);
+
 int main(void)
 {
 
-    double x = -1.5e38;
-    double y = -1.5e38;
-    double z = 1;
+    int x = 1;
 
-    double a1 = x + y;
-    double a2 = y + z;
-
-    std::cout << a1 + z << std::endl;
-    std::cout << x + a2 << std::endl;
+    integraloverflow(x);
 
     return 0;
+
+}
+
+// We wanna obtain the integral overflow in c++ with a simple code.
+void integraloverflow(int & a)
+{
+    
+    int n = 0;
+
+    while(a > 0){
+
+        a *= 2;
+        n++ ;
+        std::cout << n << ". " << a << std::endl;
+        
+
+    }
+
+    std::cout << "Overflow occurred! (Undefined behavior) at interation #" << n << std::endl;
+
 }
