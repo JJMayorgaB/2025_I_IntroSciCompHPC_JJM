@@ -13,7 +13,7 @@ int main(int argc, char **argv)
     int N = std::atoi(argv[1]);
 
     for(int k = 1; k <= N; k++)
-        std::cout << k << sumk(k) << std::endl;
+        std::cout << k << "\t" << sumk(k) << "\n";
     return 0;
 
 }
