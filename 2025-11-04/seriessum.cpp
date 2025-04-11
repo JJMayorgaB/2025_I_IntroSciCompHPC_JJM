@@ -15,7 +15,7 @@ int main(int argc, char **argv)
     int N = std::atoi(argv[1]);
 
     for(int k = 1; k <= N; k++)
-        std::cout << k << "\t" << sum1(k) << "\t" << sum2(k) << "\t" << sum3(k) << "\t" << std::fabs(sum1(k) - sum3(k))/sum3(k) << "\t" << std::fabs(sum2(k) - sum3(k))/sum3(k) <<"\n";
+        std::cout << k << "\t" << sum1(k) << "\t" << sum2(k) << "\t" << sum3(k) << "\t" << std::fabs(sum1(k) - sum3(k))/sum3(k) << "\t" << std::fabs(sum2(k) - sum3(k)) / sum3(k) <<"\n";
     return 0;
 
 }
@@ -23,9 +23,9 @@ int main(int argc, char **argv)
 REAL sum1(int k)
 {
     REAL suma = 0.0;
-    for(int ii = 1; ii <= k; ii++){
+    for(int ii = 1; ii <= 2*k; ii++){
         REAL n = ii*1.0;
-        suma += pow(-1, n)*n/(n+1);
+        suma += pow(-1, n)* n / (n+1);
     }
     return suma;
 }
@@ -46,8 +46,8 @@ REAL sum3(int k)
 {
     REAL suma = 0.0;
     for(int ii = 1; ii <= k; ii++){
-        REAL n = ii*1.0;
-        suma += 1/(2*n*(2*n+1));
+        REAL n = ii/1.0;
+        suma += 1 / ( 2 * n * (2 * n + 1));
     }
     return suma;
 }
