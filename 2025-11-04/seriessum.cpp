@@ -14,10 +14,16 @@ int main(int argc, char **argv)
 
     int N = std::atoi(argv[1]);
 
-    for(int k = 1; k <= N; k++)
-        std::cout << k << "\t" << sum1(k) << "\t" << sum2(k) << "\t" << sum3(k) << "\t" << std::fabs(sum1(k) - sum3(k))/sum3(k) << "\t" << std::fabs(sum2(k) - sum3(k)) / sum3(k) <<"\n";
+    for(int k = 1; k <= N; k++){
+        std::cout << k << "\t" 
+                    << sum1(k) << "\t" 
+                    << sum2(k) << "\t" 
+                    << sum3(k) << "\t" 
+                    << std::fabs(sum1(k) - sum3(k))/sum3(k) << "\t" 
+                    << std::fabs(sum2(k) - sum3(k)) / sum3(k) <<"\n";   
+    }
+        
     return 0;
-
 }
 
 REAL sum1(int k)
