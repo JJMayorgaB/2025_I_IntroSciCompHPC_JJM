@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <cstdlib>
 
 typedef float REAL;
 
@@ -13,37 +14,46 @@ REAL sum2(int k);
 
 int main(int argc, char **argv)
 {
-    std::cout.precision(16); 
+    std::cout.precision(8); 
     std::cout.setf(std::ios::scientific); //La salida de las sumas se da en notación cientifca
+
+    if (argc != 2) {
+        std::cerr << "Uso: " << argv[0] << " N\n"; //Control de errores
+        return 1;
+    }
 
     int N = std::atoi(argv[1]); //N es el numero de sumas a realizar, ingrese este valor desde la consola
 
     for(int k = 1; k <= N; k++){ //Salida de los datos
+
+        REAL s1 = sum1(k);
+        REAL s2 = sum2(k); 
+
         std::cout << k << "\t" 
-                    << sum1(k) << "\t" 
-                    << sum2(k) << "\t" 
-                    << std::fabs( 1 - (sum1(k) / sum2(k)) ) << "\n";
+                    << s1 << "\t" 
+                    << s2 << "\t" 
+                    << std::fabs( 1 - (s1 / s2) ) << "\n";
     }
 
     return 0;
 }
 
-REAL sum1(int k)
+REAL sum1(int k) //suma de la serie armónica en orden ascendente
 {
     REAL suma = 0.0;
     for(int ii = 1; ii <= k; ii++){
         REAL n = ii*1.0;
-        suma += 1.0/n;
+        suma += 1/n;
     }
     return suma;
 }
 
-REAL sum2(int k)
+REAL sum2(int k) //suma de la serie armónica en orden descendente
 {
     REAL suma = 0.0;
     for(int ii = k; ii >= 1; ii--){
         REAL n = ii*1.0;
-        suma += 1.0/n;
+        suma += 1/n;
     }
     return suma;
 }
