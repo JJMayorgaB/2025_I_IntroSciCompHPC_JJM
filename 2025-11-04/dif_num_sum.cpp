@@ -1,5 +1,5 @@
 //Al momento de utilizar este codigo desde consola recomiendo ejecutar de la forma .\a.exe N > data.txt, donde N
-//es el numero de sumas a realizar y data.txt un archivo .txt donde saldra la saliad de los datos en una tabla, esto 
+//es el numero de sumas a realizar y data.txt un archivo .txt donde saldra la salida de los datos en una tabla, esto 
 //con el fin de optimizar mejor el rendimiento del codigo y poder realizar mas pruebas con distintos N de forma practica.
 
 #include <iostream>
@@ -38,7 +38,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
-REAL sum1(int k) //suma de la serie armónica en orden ascendente
+REAL sum1(int k) //Suma de la serie armónica en orden ascendente
 {
     REAL suma = 0.0;
     for(int ii = 1; ii <= k; ii++){
@@ -48,7 +48,7 @@ REAL sum1(int k) //suma de la serie armónica en orden ascendente
     return suma;
 }
 
-REAL sum2(int k) //suma de la serie armónica en orden descendente
+REAL sum2(int k) //Suma de la serie armónica en orden descendente
 {
     REAL suma = 0.0;
     for(int ii = k; ii >= 1; ii--){

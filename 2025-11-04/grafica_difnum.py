@@ -21,7 +21,7 @@ plt.grid(True, which='both', linestyle='--', alpha=0.5)
 plt.legend()
 plt.tight_layout()
 
-plt.savefig('error_plot.pdf', format='pdf', bbox_inches='tight')
+plt.savefig('error_plot1_000_000.pdf', format='pdf', bbox_inches='tight')
 plt.show()
 
 
