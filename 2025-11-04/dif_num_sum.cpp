@@ -1,6 +1,6 @@
 //Al momento de utilizar este codigo desde consola recomiendo ejecutar de la forma .\a.exe N > data.txt, donde N
-//es el numero de sumas a realizar, esto con el fin de optimizar mejor el rendimiento del codigo y poder realizar
-//mas pruebas con distintos N de forma practica.
+//es el numero de sumas a realizar y data.txt un archivo .txt donde saldra la saliad de los datos en una tabla, esto 
+//con el fin de optimizar mejor el rendimiento del codigo y poder realizar mas pruebas con distintos N de forma practica.
 
 #include <iostream>
 #include <cmath>
