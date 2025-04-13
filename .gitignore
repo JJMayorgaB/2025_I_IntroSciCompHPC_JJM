@@ -2,5 +2,6 @@ a.out
 .x
 .vscode
 .o
-~
+*~
 *.txt
+*.exe
