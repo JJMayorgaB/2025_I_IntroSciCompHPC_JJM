@@ -7,5 +7,5 @@ sumupdown.x	:	sumupdown.cpp
 data.txt	:	sumupdown.x
 	./sumupdown.x > data.txt	
 
-clean:
-	rm -f *.x a.out *.txt
+clean	:
+	rm -f *.x a.out *.txt *.pdf
