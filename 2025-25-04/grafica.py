@@ -7,7 +7,7 @@ rc('font', family='serif', size=12)
 
 plt.figure(figsize=(8, 6))
 plt.grid(True)
-plt.xlabel(r'Valor $x$', fontsize=14)
+plt.xlabel('Valor $x$', fontsize=14)
 plt.ylabel(r'Densidad de probabilidad', fontsize=14)
 plt.title(r'Comparación de distribuciones normales generadas aleatoriamente', fontsize=16)
 
