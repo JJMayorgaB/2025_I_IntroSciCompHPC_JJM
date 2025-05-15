@@ -7,10 +7,10 @@ int main(int argc, char **argv)
   const int N = 10;
   double * array;
   //reserve memory
-  array = new double [N];
+  array = new double [N] {0.0};
   // initialise array
   for (int ii = 0; ii < N; ++ii) {
-    array[ii] = 2*(++ii); // != 2*(ii++) ?
+    array[ii] = 2*(++ii); // != 2*(ii++) ?s
   }
   // print some values
   int idx = 2;
