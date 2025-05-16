@@ -4,4 +4,3 @@
 #include<cmath>
 
 long factorial(long n);
-int parity(int number);
