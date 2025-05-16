@@ -6,9 +6,9 @@ on: [push, pull_request]
     build:
       runs-on: ubuntu-latest
 
-  defaults:
-      run:
-        working-directory: 2025-05-14
+      defaults:
+        run:
+          working-directory: 2025-05-14
 
     steps:
     - name: Checkout code
