@@ -10,3 +10,8 @@ long factorial(long number)
     return number < 0 ? number : factorial(number-1)*number;
 }
 
+
+int parity(int number){
+    return (number % 2 == 0) ? 1 : -1;
+}
+
