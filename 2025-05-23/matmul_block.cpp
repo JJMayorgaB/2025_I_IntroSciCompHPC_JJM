@@ -159,7 +159,7 @@ void matrix_mult_blocking(double** A, double** B, double** C, int N, int BLOCK_S
 
 //parallel './matmul_block{1}.x 1024 {2} 10 >> data-{1}.txt' ::: 0 1 2 3 fast ::: 2 4 8 16 32 64 128 256 512 1024
 
-//parallel ' sort -k 2 data-{1}.txt > data_{1}.txt' ::: 0 1 2 3 fast
+//parallel ' sort -nk 2 data-{1}.txt > datasorted_{1}.txt' ::: 0 1 2 3 fast
 
-//
+//for level in 0 1 2 3 fast do sort -nk 2 data-$(level)$.txt 
 
