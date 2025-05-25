@@ -6,7 +6,23 @@ long long fib_fast(int n);
 
 int main(int argc, char **argv) {
 
+    // Validación de argumentos
+    if (argc != 2) {
+        std::cerr << "Uso: " << argv[0] << " <numero>" << std::endl;
+        return 1;
+    }
+
     int n = std::atoi(argv[1]);
+
+    // Validación del número
+    if (n < 0) {
+        std::cerr << "Error: El número debe ser no negativo" << std::endl;
+        return 1;
+    }
+    
+    if (n > 93) {
+        std::cerr << "Advertencia: Valores mayores a 93 pueden causar overflow en long long" << std::endl;
+    }
 
     auto start = std::chrono::high_resolution_clock::now();
     long long result = fib(n);
