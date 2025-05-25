@@ -24,15 +24,15 @@ int main(int argc, char **argv) {
         std::cerr << "Advertencia: Valores mayores a 93 pueden causar overflow en long long" << std::endl;
     }
 
-    auto start = std::chrono::high_resolution_clock::now();
-    long long result = fib(n);
-    auto end = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double> elapsed1 = end - start;
+    auto start1 = std::chrono::high_resolution_clock::now();
+    long long result1 = fib(n);
+    auto end1 = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> elapsed1 = end1 - start1;
 
-    auto start = std::chrono::high_resolution_clock::now();
-    long long result = fib_fast(n);
-    auto end = std::chrono::high_resolution_clock::now(); 
-    std::chrono::duration<double> elapsed2 = end - start;
+    auto start2 = std::chrono::high_resolution_clock::now();
+    long long result2 = fib_fast(n);
+    auto end2 = std::chrono::high_resolution_clock::now(); 
+    std::chrono::duration<double> elapsed2 = end2 - start2;
 
     std::cout << n << "\t" << elapsed1.count() << "\t" << elapsed2.count() << std::endl;
     
