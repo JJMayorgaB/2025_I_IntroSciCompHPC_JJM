@@ -14,7 +14,7 @@ ax.plot(data[:, 0], data[:, 3], label="Option 3")
 
 plt.xlabel("Matrix size n")
 plt.ylabel("Time")
-#plt.xscale("log")
+plt.xscale("log")
 plt.yscale("log")
 plt.grid(True)
 plt.legend()
