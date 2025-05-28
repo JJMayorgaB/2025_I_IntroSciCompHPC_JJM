@@ -1,6 +1,7 @@
 #include <cstdio>
 #include <cstdlib>
-
+#include<chrono>
+#include<iostream>
 /*
   Tests cache misses.
 */
@@ -23,13 +24,21 @@ int main(int argc, char **argv)
   long *arr = new long[sI*sJ]; // double array.
 
   // option 1
+  auto start = std::chrono::steady_clock::now();
   option1(arr, sI, sJ);
-      
+  auto end = std::chrono::steady_clock::now();
+  std::cout << (end-start).count() << "\n";  
   // option 2
+  auto start = std::chrono::steady_clock::now();
   option2(arr, sI, sJ);
-
+  auto end = std::chrono::steady_clock::now();
+  std::cout << (end-start).count() << "\n";
+  
   // option 3
+  auto start = std::chrono::steady_clock::now();
   option3(arr, sI, sJ);
+  auto end = std::chrono::steady_clock::now();
+  std::cout << (end-start).count() << "\n";
 
   // why this?
   printf("%ld\n", arr[0]);
@@ -39,6 +48,8 @@ int main(int argc, char **argv)
 
   return 0;
 }
+
+
 
 void option1(long * data, int m, int n)
 {
@@ -51,7 +62,7 @@ void option2(long * data, int m, int n)
 {
   for (long i=0; i < m; ++i)
     for (long j=0; j < n; ++j)
-      data[(j * (sI)) + i ] = i;
+      data[(j * (m)) + i ] = i;
 }
 
 void option3(long * data, int m, int n)
