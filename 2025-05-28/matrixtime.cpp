@@ -24,26 +24,30 @@ int main(int argc, char **argv)
   long *arr = new long[sI*sJ]; // double array.
 
   // option 1
-  auto start1 = std::chrono::steady_clock::now();
+  auto start = std::chrono::steady_clock::now();
   option1(arr, sI, sJ);
-  auto end1 = std::chrono::steady_clock::now();
+  auto end = std::chrono::steady_clock::now();
+  std::chrono::duration<double> elapsed1 = end - start;
+  
  // std::cout << (end1-start1).count() << "\n";  
   // option 2
-  auto start2 = std::chrono::steady_clock::now();
+  start = std::chrono::steady_clock::now();
   option2(arr, sI, sJ);
-  auto end2 = std::chrono::steady_clock::now();
+  end = std::chrono::steady_clock::now();
+  std::chrono::duration<double> elapsed2 = end - start;
  // std::cout << (end2-start2).count() << "\n";
   
   // option 3
-  auto start3 = std::chrono::steady_clock::now();
+  start = std::chrono::steady_clock::now();
   option3(arr, sI, sJ);
-  auto end3 = std::chrono::steady_clock::now();
+  end = std::chrono::steady_clock::now();
+  std::chrono::duration<double> elapsed3 = end - start;
  // std::cout << (end3-start3).count() << "\n";
 
   // why this?
   //printf("%ld\n", arr[0]);
 
-  std::cout << sI << "\t" << (end1-start1).count() << "\t" << (end2-start2).count() << "\t" << (end3-start3).count() << std::endl;
+  std::cout << sI << "\t" << elapsed1.count() << "\t" << elapsed2.count() << "\t" << elapsed3.count() << std::endl;
 
   // free memory
   delete [] arr; 
