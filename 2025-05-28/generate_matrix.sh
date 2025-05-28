@@ -14,3 +14,6 @@ fi
 
 #Eliminamos todos los ejecutables para mantener un entorno limpio
 rm *.x
+
+#Graficamos 
+python plotmatrix.py
