@@ -2,7 +2,7 @@
 g++ matrixtime.cpp -o matrixtime.x
 
 #Se ejecuta el programa y se guardan los datos
-parallel './matrixtime.x {1} >> data.txt'  {5..5000..50}
+parallel './matrixtime.x {1} {1} >> data.txt'  {5..5000..50}
 
 #En caso de que la salida de los datos no se de ordenadamente, ordenamos los datos
 if [[ -f "data.txt" ]]; then

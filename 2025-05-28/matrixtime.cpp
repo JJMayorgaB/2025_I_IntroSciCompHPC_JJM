@@ -19,7 +19,7 @@ int main(int argc, char **argv)
   long sI = atoi(argv[1]);
   long sJ = atoi(argv[2]);
 
-  printf("Operating on matrix of size %ld by %ld\n", sI, sJ);
+  //printf("Operating on matrix of size %ld by %ld\n", sI, sJ);
 
   long *arr = new long[sI*sJ]; // double array.
 
@@ -27,21 +27,21 @@ int main(int argc, char **argv)
   auto start1 = std::chrono::steady_clock::now();
   option1(arr, sI, sJ);
   auto end1 = std::chrono::steady_clock::now();
-  std::cout << (end1-start1).count() << "\n";  
+ // std::cout << (end1-start1).count() << "\n";  
   // option 2
   auto start2 = std::chrono::steady_clock::now();
   option2(arr, sI, sJ);
   auto end2 = std::chrono::steady_clock::now();
-  std::cout << (end2-start2).count() << "\n";
+ // std::cout << (end2-start2).count() << "\n";
   
   // option 3
   auto start3 = std::chrono::steady_clock::now();
   option3(arr, sI, sJ);
   auto end3 = std::chrono::steady_clock::now();
-  std::cout << (end3-start3).count() << "\n";
+ // std::cout << (end3-start3).count() << "\n";
 
   // why this?
-  printf("%ld\n", arr[0]);
+  //printf("%ld\n", arr[0]);
 
   std::cout << sI << "\t" << (end1-start1).count() << "\t" << (end2-start2).count() << "\t" << (end3-start3).count() << std::endl;
 
