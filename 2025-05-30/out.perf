@@ -1,0 +1,2573 @@
+a.out   18756 1303369.792816:          1 cycles:Pu: 
+	    7f908a355000 _start+0x0 (/lib64/ld-2.40.so)
+
+a.out   18756 1303369.792821:          1 cycles:Pu: 
+	    7f908a355000 _start+0x0 (/lib64/ld-2.40.so)
+
+a.out   18756 1303369.792823:        382 cycles:Pu: 
+	    7f908a355000 _start+0x0 (/lib64/ld-2.40.so)
+
+a.out   18756 1303369.792825:     289497 cycles:Pu: 
+	ffffffff88400b90 [unknown] ([unknown])
+
+a.out   18756 1303369.793008:   89167861 cycles:Pu: 
+	          40114c main+0x26 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.815529:   74809530 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.833723:   44854975 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.844474:   42792351 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.854706:   42389316 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.864863:   42252096 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.875026:   42033502 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.885142:   42030199 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.895230:   42022717 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.905280:   42166769 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.915367:   42206121 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.925501:   42037192 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.935556:   42162683 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.945635:   42232456 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.955773:   42079170 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.965860:   42110450 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.975949:   42107473 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.986009:   42233044 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303369.996154:   42096125 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.006234:   42168785 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.016309:   42248127 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.026420:   42194300 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.036553:   42078505 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.046641:   42131875 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.056715:   42213852 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.066850:   42116949 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.076947:   42164178 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.087059:   42224253 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.097174:   42120199 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.107270:   42149064 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.117340:   42244499 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.127453:   42201675 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.137563:   42201977 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.147690:   42257304 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.157818:   42099330 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.167886:   42281163 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.177579:   43457318 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.187527:   43969898 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.197600:   44059535 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.207685:   44166302 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.217786:   44118436 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.227912:   44068326 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.238004:   44071582 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.248093:   44104761 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.258158:   44222406 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.268328:   43903194 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.278382:   44080396 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.288501:   44120797 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.298570:   44166119 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.308708:   44035215 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.318793:   44137868 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.328893:   44121360 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.338996:   44164261 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.349102:   44105072 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.359200:   44146690 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.369289:   44184605 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.379411:   44133096 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.389565:   44068718 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.399944:   42958459 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.409865:   43640604 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.419876:   43961528 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.429908:   44187986 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.440015:   44155187 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.450122:   44181254 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.460307:   43935189 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.470386:   43970470 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.480453:   44059641 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.490537:   44052582 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.500673:   43891061 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.510726:   44089465 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.520849:   44011740 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.530928:   44111832 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.541019:   44151407 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.551129:   44116662 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.561221:   44132781 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.571365:   44046305 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.581436:   44124192 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.591725:   43611129 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.602158:   42488526 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.612340:   42205646 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.622430:   42238779 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.632588:   42143449 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.642307:   43263861 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.652179:   44004473 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.662256:   44082206 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.672324:   44200792 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.682475:   44054243 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.692562:   44082675 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.702681:   44089287 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.712741:   44190619 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.722877:   44100615 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.732995:   44090175 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.743107:   44051312 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.753226:   44010289 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.763293:   44069112 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.773409:   43978671 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.783444:   44193737 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.793594:   43959283 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.803625:   44183993 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.813770:   44140183 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.823843:   44188546 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.833953:   44149873 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.844067:   44174058 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.854658:   42654317 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.864858:   42340953 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.875009:   42161044 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.885186:   41914547 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.895294:   41901211 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.905407:   41884322 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.915798:   40744515 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.926065:   40274299 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.935949:   41089950 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.945820:   41807078 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.955828:   42106527 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.965922:   42154785 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.976045:   42027415 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.986106:   42144061 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303370.995927:   43265781 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.005836:   43907126 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.015885:   44104380 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.025978:   44156414 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.036085:   44177010 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.046196:   44159152 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.056275:   44238069 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.066438:   44039502 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.076757:   43438218 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.086670:   44055338 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.096855:   43775546 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.107109:   43297959 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.117130:   43418174 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.127097:   43867202 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.137104:   44170900 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.147244:   44030814 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.157314:   44214141 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.167473:   43938304 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.177504:   44170057 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.187645:   44057877 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.197755:   44010459 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.207856:   44109576 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.217950:   44117810 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.228071:   44050321 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.238153:   44227847 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.248273:   44120710 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.258390:   44114762 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.268496:   44047964 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.278584:   44114591 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.288661:   44176770 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.298738:   44258308 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.308861:   44174624 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.318935:   44260464 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.329064:   44283835 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.339219:   44165732 cycles:Pu: 
+	          40117a func1+0x1b (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.349329:   44139746 cycles:Pu: 
+	          40117e func1+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.359415:   44173236 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.369524:   44144616 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.379632:   44137889 cycles:Pu: 
+	          401182 func1+0x23 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.389760:   44252332 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.399954:   43970993 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.410388:   42857097 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.420236:   43662667 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.430214:   44072089 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.440264:   44235881 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.450353:   44277419 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.460524:   44220263 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.470681:   43956494 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.480724:   44128604 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.490790:   44253752 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.500884:   44277689 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.510983:   44286062 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.521082:   44291744 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.531183:   44293105 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.541284:   44292960 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.551385:   44292463 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.561487:   44290993 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.571588:   44292178 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.581717:   44230167 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.591805:   44279456 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.601904:   44287829 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.612004:   44292761 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.622106:   44291170 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.632206:   44293526 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.642442:   43907003 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.652473:   44109589 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.662541:   44229148 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.672662:   44195171 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.682741:   44265334 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.692838:   44287098 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.702937:   44290518 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.713038:   44291754 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.723139:   44293733 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.733252:   44262735 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.743346:   44286050 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.753447:   44289710 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.763547:   44292867 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.773648:   44292970 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.783750:   44293738 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.793852:   44289431 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.803952:   44292092 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.814054:   44292361 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.824154:   44293308 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.834256:   44293050 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.844356:   44293684 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.854458:   44292686 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.864558:   44293968 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.874668:   44273830 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.884766:   44289028 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.894867:   44291377 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.904973:   44275601 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.915070:   44289039 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.925171:   44291772 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.935271:   44292904 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.945373:   44292506 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.955481:   44274248 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.965578:   44287244 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.975705:   44228983 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.985793:   44277657 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303371.995891:   44287329 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.005998:   44275166 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.016096:   44285605 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.026195:   44291277 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.036296:   44292938 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.046396:   44293170 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.056497:   44293780 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.066599:   44293246 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.076752:   44207884 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.086833:   44271732 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.096930:   44284390 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.107029:   44292807 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.117130:   44292516 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.127241:   44276395 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.137338:   44287922 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.147444:   44293286 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.157545:   44282973 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.167643:   44291595 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.177745:   44293600 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.187846:   44292422 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.197970:   44229819 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.208064:   44240254 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.218153:   44279857 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.228251:   44289257 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.238356:   44280749 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.248461:   44271659 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.259128:   42563542 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.269228:   42612411 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.278947:   43850820 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.288957:   44160728 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.299028:   44255965 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.309128:   44263648 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.319223:   44283164 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.329522:   43625563 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.339531:   43926239 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.349549:   44186071 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.359637:   44223529 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.369740:   44216278 cycles:Pu: 
+	          4011db new_func1+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401188 func1+0x29 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401152 main+0x2c (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.380059:   43457552 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.390059:   43873203 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.400114:   43968256 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.410142:   44207226 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.420616:   43059129 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.430441:   43965464 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.440469:   44194779 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.450571:   44210111 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.460660:   44270773 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.470835:   44086233 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.480909:   44179229 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.490986:   44257161 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.501081:   44279087 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.511179:   44289788 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.521279:   44292101 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.531380:   44292610 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.541481:   44293592 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.551583:   44291730 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.561684:   44293786 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.571787:   44292209 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.581888:   44294114 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.592004:   44256157 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.602107:   44266247 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.612202:   44285356 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.622301:   44291983 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.632403:   44291531 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.642522:   44247729 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.652612:   44280916 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.662712:   44291212 cycles:Pu: 
+	          4011ab func2+0x1f (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.672821:   44265187 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.682916:   44285738 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.693016:   44290235 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.703117:   44291130 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.713217:   44292803 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.723319:   44292448 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.733419:   44294425 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.743527:   44281688 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.753820:   43430979 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.764092:   43011271 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.773901:   43956256 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.783926:   44203347 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.794008:   44265374 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.804102:   44285537 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.814202:   44291599 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.824303:   44291644 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.834404:   44292682 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.844504:   44294122 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.854606:   44293213 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.864861:   43949005 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.874897:   44171436 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.884973:   44251013 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.895068:   44271131 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.905172:   44265108 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.915278:   44263391 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.925374:   44280067 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.935940:   42648691 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.946169:   42294266 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.956278:   42268470 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.966422:   42094112 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.976574:   41973043 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.986673:   41972472 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303372.996864:   41572093 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.007299:   40594076 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.017209:   41302377 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.027084:   41990516 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.037124:   42181585 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.047207:   42238020 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.057241:   42439520 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.066924:   43795683 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.076940:   44100502 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.087001:   44231992 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.097091:   44265343 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.107190:   44274517 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.117292:   44273721 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.127393:   44271332 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.137496:   44265853 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.147603:   44265072 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.157707:   44255240 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.167810:   44232162 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.177903:   44261016 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.188002:   44268243 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.198156:   44108401 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.208249:   44143798 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.218321:   44238928 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.228427:   44242236 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.238528:   44256655 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.248633:   44235304 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.258747:   44214449 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.268860:   44170164 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.278944:   44221078 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.289048:   44222375 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.299140:   44253828 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.309238:   44264474 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.319338:   44266793 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.329439:   44268313 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.339540:   44269702 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.349641:   44270224 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
+a.out   18756 1303373.359744:   44269550 cycles:Pu: 
+	          4011b1 func2+0x25 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	          401157 main+0x31 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+	    7f908a029d56 __libc_start_call_main+0x66 (/lib64/libc-2.40.so)
+	    7f908a029e14 __libc_start_main@@GLIBC_2.34+0x84 (/lib64/libc-2.40.so)
+	          401060 _start+0x20 (/home/jmayorgab/2025_I_IntroSciCompHPC_JJM/2025-05-30/a.out)
+
