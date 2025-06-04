@@ -47,15 +47,19 @@ void stats(const int size, const int reps,
             auto end = std::chrono::steady_clock::now();
             const std::clock_t c_end = std::clock();
 
+            std::chrono::duration<double> elapsed_seconds(end-start);
 
-            suma_wtime += (end-start).count();
-            suma_wtime2 += ((end-start).count()*(end-start).count());
+            double aux = elapsed_seconds.count();
 
-            suma_ctime += (c_end - c_start/CLOCKS_PER_SEC);
-            suma_ctime2 += ((c_end - c_start/CLOCKS_PER_SEC)*(c_end - c_start/CLOCKS_PER_SEC));
+            suma_wtime += aux;
+            suma_wtime2 += (aux*aux);
+
+            aux = (c_end - c_start)/CLOCKS_PER_SEC;
+            suma_ctime += aux;
+            suma_ctime2 += (aux*aux);
 
             //añadir a suma wtime, suma wtime2
-            std::cerr << x(0,0) << "\n";
+            //std::cerr << x(0,0) << "\n";
 
         }
 
