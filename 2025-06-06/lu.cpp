@@ -72,4 +72,7 @@ void stats(const int size, const int reps, // input parameters
 
 g++ -std=c++17 -fopenmp -O3 -fsanitize=undefined,leak,address lu.cpp
 
+OMP_NUM_THREADS={2} ./a.out {1} 4>/dev/null
+
+OMP_NUM_THREADS=4 ./a.out 1000 4>/dev/null
 */
