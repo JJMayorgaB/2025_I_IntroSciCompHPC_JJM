@@ -5,16 +5,29 @@
 #include <numeric>
 #include <execution>
 #include <iomanip>
+#include <thread>
 #include <omp.h>
 #include <string>
 
-class PerformanceMetrics;
+class PerformanceMetrics {
+private:
+    double sequential_time;
+    double parallel_time;
+    int num_threads;
+    
+public:
+    PerformanceMetrics(double seq_time, double par_time, int threads);
+    double speedup() const;
+    double efficiency() const;
+    void printMetrics() const;
+};
 
-void printUsage(char *program_name);
+void printUsage(const char* program_name);
 template<typename Func>
 double measureTime(Func&& func);
 long long sequentialReduce(const std::vector<int>& vec);
 long long parallelReduce(const std::vector<int>& vec, int policy_type);
+
 
 int main(int argc, char **argv) {
 
@@ -91,36 +104,31 @@ int main(int argc, char **argv) {
     return 0;
 }
 
-class PerformanceMetrics {
-private:
-    double sequential_time;
-    double parallel_time;
-    int num_threads;
-    
-public:
+// Constructor de PerformanceMetrics
+PerformanceMetrics::PerformanceMetrics(double seq_time, double par_time, int threads) 
+    : sequential_time(seq_time), parallel_time(par_time), num_threads(threads) {}
 
-    PerformanceMetrics(double seq_time, double par_time, int threads) 
-        : sequential_time(seq_time), parallel_time(par_time), num_threads(threads) {}
-    
-    double speedup() const {
-        return sequential_time / parallel_time;
-    }
-    
-    double efficiency() const {
-        return speedup() / num_threads;
-    }
-    
-    void printMetrics() const {
-        std::cout << std::fixed << std::setprecision(4);
-        std::cout << "\n=== PERFORMANCE METRICS ===" << std::endl;
-        std::cout << "Sequential Time: " << sequential_time << " seconds" << std::endl;
-        std::cout << "Parallel Time: " << parallel_time << " seconds" << std::endl;
-        std::cout << "Number of Threads: " << num_threads << std::endl;
-        std::cout << "Speedup: " << speedup() << "x" << std::endl;
-        std::cout << "Parallel Efficiency: " << (efficiency() * 100) << "%" << std::endl;
-        std::cout << "=========================" << std::endl;
-    }
-};
+// Calcular speedup
+double PerformanceMetrics::speedup() const {
+    return sequential_time / parallel_time;
+}
+
+// Calcular eficiencia
+double PerformanceMetrics::efficiency() const {
+    return speedup() / num_threads;
+}
+
+// Imprimir métricas de rendimiento
+void PerformanceMetrics::printMetrics() const {
+    std::cout << std::fixed << std::setprecision(4);
+    std::cout << "\n=== PERFORMANCE METRICS ===" << std::endl;
+    std::cout << "Sequential Time: " << sequential_time << " seconds" << std::endl;
+    std::cout << "Parallel Time: " << parallel_time << " seconds" << std::endl;
+    std::cout << "Number of Threads: " << num_threads << std::endl;
+    std::cout << "Speedup: " << speedup() << "x" << std::endl;
+    std::cout << "Parallel Efficiency: " << (efficiency() * 100) << "%" << std::endl;
+    std::cout << "=========================" << std::endl;
+}
 
 // Función para medir tiempo de ejecución
 template<typename Func>
@@ -152,11 +160,11 @@ long long parallelReduce(const std::vector<int>& vec, int policy_type) {
     }
 }
 
-void printUsage(char *program_name) {
+// Función para mostrar uso del programa
+void printUsage(const char* program_name) {
     std::cout << "Usage: " << program_name << " <vector_size> <num_threads> <execution_policy>" << std::endl;
     std::cout << "  vector_size: Size of the vector to process" << std::endl;
     std::cout << "  num_threads: Number of threads to use" << std::endl;
     std::cout << "  execution_policy: 0 (seq), 1 (par), 2 (par_unseq)" << std::endl;
     std::cout << "Example: " << program_name << " 10000000 4 2" << std::endl;
 }
-
