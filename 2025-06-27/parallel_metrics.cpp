@@ -41,8 +41,6 @@ int main(int argc, char **argv) {
     size_t vector_size = std::stoull(argv[1]);
     int num_threads = std::stoi(argv[2]);
     int execution_policy = std::stoi(argv[3]);
-    
-    std::cout << "vector size: " << vector_size  << std::endl;
 
     // Validar argumentos
     if (vector_size <= 0 || num_threads <= 0 || execution_policy < 0 || execution_policy > 2) {
