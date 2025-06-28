@@ -60,7 +60,7 @@ def graficar_speedup_efficiency(lista_archivos):
     
     plt.tight_layout()
     fig1.savefig("speedup.pdf")
-    fig2.savefig("efficiency.pdf")s
+    fig2.savefig("efficiency.pdf")
     plt.show()
 
 # Archivos a graficar (asegúrate de que los nombres coincidan)
