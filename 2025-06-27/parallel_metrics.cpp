@@ -49,6 +49,7 @@ int main(int argc, char **argv) {
         std::cerr << "Error: Invalid arguments" << std::endl;
         printUsage(argv[0]);
         return 1;
+    }
     
     // Crear y llenar el vector
     std::vector<int> vec(vector_size);
