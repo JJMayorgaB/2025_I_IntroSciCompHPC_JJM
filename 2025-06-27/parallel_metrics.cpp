@@ -57,7 +57,7 @@ int main(int argc, char **argv) {
     omp_set_num_threads(1);
     long long seq_result = 0;
     double sequential_time = measureTime([&]() {
-        seq_result = sequentialReduce(vec);
+        seq_result = parallelReduce(vec, execution_policy);
     });
     
     // Restaurar número de threads para medición paralela
