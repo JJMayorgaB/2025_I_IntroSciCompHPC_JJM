@@ -42,6 +42,8 @@ int main(int argc, char **argv) {
     int num_threads = std::stoi(argv[2]);
     int execution_policy = std::stoi(argv[3]);
     
+    std::cout << "vector size: " << vector_size  << std::endl;
+
     // Validar argumentos
     if (vector_size <= 0 || num_threads <= 0 || execution_policy < 0 || execution_policy > 2) {
         std::cerr << "Error: Invalid arguments" << std::endl;
@@ -108,31 +110,32 @@ void PerformanceMetrics::printMetrics() const {
 
 // Función para medir tiempo de ejecución
 template<typename Func>
-double measureTime(Func&& func) {
-    auto start = std::chrono::high_resolution_clock::now();
+double measureTime(Func&& func) {   
+    std::chrono::duration<double> diff;
+    auto start = std::chrono::steady_clock::now();
     func();
-    auto end = std::chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
-    return duration.count() / 1000000.0; // Convertir a segundos
+    auto end = std::chrono::steady_clock::now();
+    diff = end-start;
+    return diff.count()
 }
 
 // Función de reducción secuencial
 long long sequentialReduce(const std::vector<int>& vec) {
-    return std::reduce(std::execution::seq, vec.begin(), vec.end(), 0LL);
+    return std::reduce(std::execution::seq, vec.begin(), vec.end());
 }
 
 // Función de reducción paralela
 long long parallelReduce(const std::vector<int>& vec, int policy_type) {
     switch(policy_type) {
         case 0: // sequential
-            return std::reduce(std::execution::seq, vec.begin(), vec.end(), 0LL);
+            return std::reduce(std::execution::seq, vec.begin(), vec.end());
         case 1: // parallel
-            return std::reduce(std::execution::par, vec.begin(), vec.end(), 0LL);
+            return std::reduce(std::execution::par, vec.begin(), vec.end());
         case 2: // parallel_unsequenced
-            return std::reduce(std::execution::par_unseq, vec.begin(), vec.end(), 0LL);
+            return std::reduce(std::execution::par_unseq, vec.begin(), vec.end());
         default:
             std::cerr << "Invalid policy type. Using sequential." << std::endl;
-            return std::reduce(std::execution::seq, vec.begin(), vec.end(), 0LL);
+            return std::reduce(std::execution::seq, vec.begin(), vec.end());
     }
 }
 
