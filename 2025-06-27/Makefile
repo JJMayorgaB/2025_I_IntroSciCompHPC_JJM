@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -O3 -Wall -Wextra -fopenmp
-TARGET = parallel_metrics
+TARGET = parallel_metrics.x
 SOURCE = parallel_metrics.cpp
 
 # Detectar si TBB está disponible

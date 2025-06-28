@@ -52,20 +52,9 @@ int main(int argc, char **argv) {
     // Configurar número de threads para OpenMP
     omp_set_num_threads(num_threads);
     
-    std::cout << "Initializing vector of size: " << vector_size << std::endl;
-    std::cout << "Using " << num_threads << " threads" << std::endl;
-    std::cout << "Execution policy: ";
-    switch(execution_policy) {
-        case 0: std::cout << "sequential (seq)" << std::endl; break;
-        case 1: std::cout << "parallel (par)" << std::endl; break;
-        case 2: std::cout << "parallel unsequenced (par_unseq)" << std::endl; break;
-    }
-    
     // Crear y llenar el vector
     std::vector<int> vec(vector_size);
     std::iota(vec.begin(), vec.end(), 1); // Llenar con valores 1, 2, 3, ..., n
-    
-    std::cout << "\nStarting performance measurements..." << std::endl;
     
     // Medir tiempo secuencial (siempre con 1 thread para referencia)
     omp_set_num_threads(1);
@@ -88,18 +77,11 @@ int main(int argc, char **argv) {
         std::cerr << "Warning: Sequential and parallel results differ!" << std::endl;
         std::cerr << "Sequential result: " << seq_result << std::endl;
         std::cerr << "Parallel result: " << par_result << std::endl;
-    } else {
-        std::cout << "✓ Results verified: " << seq_result << std::endl;
-    }
+    } 
     
     // Calcular y mostrar métricas de rendimiento
     PerformanceMetrics metrics(sequential_time, parallel_time, num_threads);
     metrics.printMetrics();
-    
-    // Información adicional
-    std::cout << "\nAdditional Information:" << std::endl;
-    std::cout << "Hardware threads available: " << std::thread::hardware_concurrency() << std::endl;
-    std::cout << "OpenMP threads used: " << omp_get_max_threads() << std::endl;
     
     return 0;
 }
@@ -120,14 +102,8 @@ double PerformanceMetrics::efficiency() const {
 
 // Imprimir métricas de rendimiento
 void PerformanceMetrics::printMetrics() const {
-    std::cout << std::fixed << std::setprecision(4);
-    std::cout << "\n=== PERFORMANCE METRICS ===" << std::endl;
-    std::cout << "Sequential Time: " << sequential_time << " seconds" << std::endl;
-    std::cout << "Parallel Time: " << parallel_time << " seconds" << std::endl;
-    std::cout << "Number of Threads: " << num_threads << std::endl;
-    std::cout << "Speedup: " << speedup() << "x" << std::endl;
-    std::cout << "Parallel Efficiency: " << (efficiency() * 100) << "%" << std::endl;
-    std::cout << "=========================" << std::endl;
+    std::cout << std::fixed << std::setprecision(8);
+    std::cout << num_threads << "\t" << speedup() << "\t" << efficiency() << std::endl;
 }
 
 // Función para medir tiempo de ejecución
