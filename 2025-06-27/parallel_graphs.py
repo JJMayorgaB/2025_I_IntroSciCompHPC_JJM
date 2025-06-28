@@ -31,9 +31,8 @@ def graficar_speedup_efficiency(lista_archivos):
                  color=colores[i], 
                  label=politicas[i])
     
-    # ---- Añadir curva teórica y=x al gráfico de Speedup ----
-    max_threads = max([np.loadtxt(archivo)[:, 0].max() for archivo in lista_archivos])
-    x_teorico = np.linspace(1, max_threads, 100)
+
+    x_teorico = np.linspace(1, 18, 10)
     y_teorico = x_teorico  # Speedup ideal (y = x)
     
     ax1.plot(x_teorico, y_teorico, 
@@ -48,7 +47,6 @@ def graficar_speedup_efficiency(lista_archivos):
     ax1.set_title("Parallel Speedup vs Número de Threads (8 cores físicos / 16 threads)")
     ax1.legend()
     ax1.grid(True)
-    ax1.axhline(y=1, color='black', linestyle=':', alpha=0.5)  # Línea de referencia
     ax1.set_xlim(0, 18)
     ax1.set_ylim(0, 18)
 
