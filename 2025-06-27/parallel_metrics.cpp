@@ -49,10 +49,6 @@ int main(int argc, char **argv) {
         std::cerr << "Error: Invalid arguments" << std::endl;
         printUsage(argv[0]);
         return 1;
-    }
-    
-    // Configurar número de threads para OpenMP
-    omp_set_num_threads(num_threads);
     
     // Crear y llenar el vector
     std::vector<int> vec(vector_size);
