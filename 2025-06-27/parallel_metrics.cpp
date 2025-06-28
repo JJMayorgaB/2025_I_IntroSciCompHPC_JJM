@@ -57,7 +57,7 @@ int main(int argc, char **argv) {
     omp_set_num_threads(1);
     long long seq_result = 0;
     double sequential_time = measureTime([&]() {
-        seq_result = parallelReduce(vec, execution_policy);
+        seq_result = parallelReduce(vec, 0);
     });
     
     // Restaurar número de threads para medición paralela
@@ -112,11 +112,6 @@ double measureTime(Func&& func) {
     auto end = std::chrono::steady_clock::now();
     diff = end-start;
     return diff.count();
-}
-
-// Función de reducción secuencial
-long long sequentialReduce(const std::vector<int>& vec) {
-    return std::reduce(std::execution::seq, vec.begin(), vec.end());
 }
 
 // Función de reducción paralela
