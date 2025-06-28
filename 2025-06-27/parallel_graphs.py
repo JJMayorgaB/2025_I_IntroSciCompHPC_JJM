@@ -49,7 +49,9 @@ def graficar_speedup_efficiency(lista_archivos):
     ax1.legend()
     ax1.grid(True)
     ax1.axhline(y=1, color='gray', linestyle=':', alpha=0.5)  # Línea de referencia
-    
+    ax1.set_xlim(0, 18)
+    ax1.set_ylim(0, 6)
+
     # Ajustes para la gráfica de Efficiency
     ax2.set_xlabel("Número de Threads")
     ax2.set_ylabel("Eficiencia Paralela")
@@ -57,7 +59,9 @@ def graficar_speedup_efficiency(lista_archivos):
     ax2.legend()
     ax2.grid(True)
     ax2.axhline(y=100, color='gray', linestyle=':', alpha=0.5)  # Línea de referencia (100%)
-    
+    ax2.set_xlim(0, 18)
+    ax2.set_ylim(0, 1.2)
+
     plt.tight_layout()
     fig1.savefig("speedup.pdf")
     fig2.savefig("efficiency.pdf")
