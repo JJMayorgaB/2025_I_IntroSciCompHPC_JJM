@@ -48,9 +48,9 @@ def graficar_speedup_efficiency(lista_archivos):
     ax1.set_title("Parallel Speedup vs Número de Threads (8 cores físicos / 16 threads)")
     ax1.legend()
     ax1.grid(True)
-    ax1.axhline(y=1, color='gray', linestyle=':', alpha=0.5)  # Línea de referencia
+    ax1.axhline(y=1, color='black', linestyle=':', alpha=0.5)  # Línea de referencia
     ax1.set_xlim(0, 18)
-    ax1.set_ylim(0, 6)
+    ax1.set_ylim(0, 18)
 
     # Ajustes para la gráfica de Efficiency
     ax2.set_xlabel("Número de Threads")
@@ -58,7 +58,7 @@ def graficar_speedup_efficiency(lista_archivos):
     ax2.set_title("Eficiencia Paralela vs Número de Threads (8 cores físicos / 16 threads)")
     ax2.legend()
     ax2.grid(True)
-    ax2.axhline(y=100, color='gray', linestyle=':', alpha=0.5)  # Línea de referencia (100%)
+    ax2.axhline(y=1, color='black', linestyle=':', alpha=0.5)  # Línea de referencia (100%)
     ax2.set_xlim(0, 18)
     ax2.set_ylim(0, 1.2)
 
