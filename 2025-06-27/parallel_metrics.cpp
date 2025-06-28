@@ -116,7 +116,7 @@ double measureTime(Func&& func) {
     func();
     auto end = std::chrono::steady_clock::now();
     diff = end-start;
-    return diff.count()
+    return diff.count();
 }
 
 // Función de reducción secuencial
