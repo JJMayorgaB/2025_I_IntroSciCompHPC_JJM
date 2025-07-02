@@ -1,49 +1,70 @@
-import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 
-# Leer los datos
-df = pd.read_csv("data.txt", delim_whitespace=True)
+def graficar_speedup_efficiency(lista_archivos):
+    # Configuración de estilos y colores
+    colores = ['blue', 'red', 'green']
+    politicas = ['Secuencial (seq)', 'Paralelo (par)', 'Paralelo no secuencial (par_unseq)']
+    
+    # Crear dos figuras (una para speedup, otra para efficiency)
+    fig1, ax1 = plt.subplots(figsize=(10, 6))
+    fig2, ax2 = plt.subplots(figsize=(10, 6))
+    
+    for i, archivo in enumerate(lista_archivos):
+        # Leer datos (ignorando líneas vacías o comentarios)
+        datos = np.loadtxt(archivo)
+        threads = datos[:, 0]  # Primera columna: número de threads
+        speedup = datos[:, 1]  # Segunda columna: speedup
+        efficiency = datos[:, 2]  # Tercera columna: efficiency
+        
+        # Gráfica de Speedup
+        ax1.plot(threads, speedup, 
+                 marker='o', 
+                 linestyle='-', 
+                 color=colores[i], 
+                 label=politicas[i])
+        
+        # Gráfica de Efficiency
+        ax2.plot(threads, efficiency, 
+                 marker='s', 
+                 linestyle='--', 
+                 color=colores[i], 
+                 label=politicas[i])
+    
 
-# Obtener tiempo secuencial base por modo (con 1 hilo)
-tiempos_base = df[df["Threads"] == 1].set_index("Modo")["Tiempo(s)"].to_dict()
+    x_teorico = np.linspace(1, 18, 10)
+    y_teorico = x_teorico  # Speedup ideal (y = x)
+    
+    ax1.plot(x_teorico, y_teorico, 
+             color='black', 
+             linestyle=':', 
+             linewidth=1,
+             label='Speedup Teórico')
+    
+    # Ajustes para la gráfica de Speedup
+    ax1.set_xlabel("Número de Threads")
+    ax1.set_ylabel("Parallel Speedup")
+    ax1.set_title("Parallel Speedup vs Número de Threads (8 cores físicos / 16 threads)")
+    ax1.legend()
+    ax1.grid(True)
+    ax1.set_xlim(0, 18)
+    ax1.set_ylim(0, 18)
 
-# Calcular speedup y eficiencia
-df["speedup"] = df.apply(lambda row: tiempos_base[row["Modo"]] / row["Tiempo(s)"], axis=1)
-df["eficiencia"] = df["speedup"] / df["Threads"]
+    # Ajustes para la gráfica de Efficiency
+    ax2.set_xlabel("Número de Threads")
+    ax2.set_ylabel("Eficiencia Paralela")
+    ax2.set_title("Eficiencia Paralela vs Número de Threads (8 cores físicos / 16 threads)")
+    ax2.legend()
+    ax2.grid(True)
+    ax2.axhline(y=1, color='black', linestyle=':', alpha=0.5)  # Línea de referencia (100%)
+    ax2.set_xlim(0, 18)
+    ax2.set_ylim(0, 1.2)
 
-# Modos disponibles
-modos = df["Modo"].unique()
-label = ["seq", "par", "par_unseq"]
+    plt.tight_layout()
+    fig1.savefig("speedup.pdf")
+    fig2.savefig("efficiency.pdf")
+    plt.show()
 
-# --- Gráfica de Speedup ---
-plt.figure(figsize=(8, 5))
-for modo in modos:
-    datos = df[df["Modo"] == modo]
-    plt.plot(datos["Threads"], datos["speedup"], marker='o', label=label[modo])
-
-plt.plot(datos["Threads"], datos["Threads"], label="Speedup teórico")
-plt.title("Parallel Speedup vs Número de Threads (8 cores físicos / 16 threads)")
-plt.xlabel("Número de threads")
-plt.ylabel("Parallel Speedup")
-plt.grid(True)
-plt.legend()
-plt.tight_layout()
-plt.savefig("speedup.pdf")
-plt.show()
-
-# --- Gráfica de Eficiencia ---
-plt.figure(figsize=(8, 5))
-for modo in modos:
-    datos = df[df["Modo"] == modo]
-    plt.plot(datos["Threads"], datos["eficiencia"], marker='s', label=label[modo])
-
-plt.title("Eficiencia Paralela vs Número de Threads (8 cores físicos / 16 threads)")
-plt.plot((1,17), (1,1), label="1")
-plt.plot((1,17), (0.6,0.6), label="0.6")
-plt.xlabel("Número de threads")
-plt.ylabel("Eficiencia Paralela")
-plt.grid(True)
-plt.legend()
-plt.tight_layout()
-plt.savefig("efficiency.pdf")
-plt.show()
+# Archivos a graficar (asegúrate de que los nombres coincidan)
+archivos = ["data_0_sorted.txt", "data_1_sorted.txt", "data_2_sorted.txt"]
+graficar_speedup_efficiency(archivos)
