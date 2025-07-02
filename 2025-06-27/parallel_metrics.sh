@@ -2,7 +2,7 @@
 #parallel_metric.cpp y graficarlas mediante parallel_graphs.py
 
 #Se realiza la compilación 
-g++ -std=c++17 -O3 -Wall -Wextra -fopenmp -o parallel_metrics.x parallel_metrics.cpp
+g++ -std=c++17 -O3 -Wall -Wextra -fopenmp -o parallel_metrics.x parallel.cpp
 
 #Se eliminan datos anteriores
 rm *.txt
