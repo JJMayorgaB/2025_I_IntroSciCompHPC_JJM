@@ -24,7 +24,7 @@ echo "Máximo número de threads: $MAX_THREADS"
 echo
 
 # Ejecutar para cada política (0=seq, 1=par, 2=par_unseq, 3=openmp)
-for policy in 0 1 2 3; do
+for policy in 0 1 2; do
     echo "Ejecutando política $policy..."
     
     # Ejecutar para cada número de threads
@@ -46,7 +46,7 @@ done
 
 echo "Ordenando archivos de datos..."
 # Ordenar cada archivo individualmente por la primera columna (threads)
-for policy in 0 1 2 3; do
+for policy in 0 1 2; do
     if [[ -f "data_${policy}.txt" ]]; then
         sort -nk 1 "data_${policy}.txt" > "data_${policy}_sorted.txt"
         rm "data_${policy}.txt"
