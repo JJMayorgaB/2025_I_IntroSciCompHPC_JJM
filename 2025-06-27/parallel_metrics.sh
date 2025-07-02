@@ -1,28 +1,22 @@
-#Este comando de bash tiene como objetivo calcular las metricas paralelas con
-#parallel_metric.cpp y graficarlas mediante parallel_graphs.py
+#!/bin/bash
 
-#Se realiza la compilación 
-g++ -std=c++17 -O3 -Wall -Wextra -fopenmp -o parallel_metrics.x parallel.cpp
+EXEC="./program"
+OUTPUT="data.txt"
+VECTOR_SIZE=200000000
 
-#Se eliminan datos anteriores
-rm *.txt
+echo "Compilando programa..."
+g++ -std=c++17 -O3 -fsanitize=thread -fopenmp -g parallel.cpp -o $EXEC || exit 1
 
-# Se ejecuta el programa y se guardan los datos
-# Uso de GNU Parallel para probar threads {1..17} y políticas {0,1,2}
-parallel './parallel_metrics.x 200000000 {1} {2} >> data_{2}.txt' ::: {1..17} ::: 0 1 2
+echo "Threads Modo Tiempo(s)" > $OUTPUT  # Cabecera con espacios
 
-# Ordenar cada archivo individualmente por la primera columna (threads)
-for policy in 0 1 2; do
-    if [[ -f "data_${policy}.txt" ]]; then
-        sort -nk 1 "data_${policy}.txt" > "data_${policy}_sorted.txt"
-        rm data_${policy}.txt
-    else
-        echo "Error: data_${policy}.txt no existe."
-    fi
+for modo in {0..2}; do
+    for threads in {1..17}; do
+        echo "Ejecutando modo $modo con $threads threads..."
+        result=$($EXEC $VECTOR_SIZE $threads $modo 2>&1)
+        echo "$threads $modo $result" >> $OUTPUT  # Datos con espacios
+    done
 done
 
-#Eliminamos todos los ejecutables para mantener un entorno limpio
-rm *.x
+echo "Resultados guardados en $OUTPUT"
 
-#Graficamos 
-python parallel_graphs.py
+python parallel_graph.py

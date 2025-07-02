@@ -106,9 +106,9 @@ void PerformanceMetrics::printMetrics() const {
 // Función para medir tiempo de ejecución
 template<typename Func>
 double measureTime(Func&& func) {   
-    double start = omp_get_wtime();;
+    double start = omp_get_wtime();
     func();
-    double end =  omp_get_wtime();;
+    double end =  omp_get_wtime();
     return end-start;
 }
 
