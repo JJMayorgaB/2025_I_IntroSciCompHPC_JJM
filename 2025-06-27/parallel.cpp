@@ -6,6 +6,7 @@
 #include <cmath>
 
 int main(int argc, char* argv[]) {
+
     if (argc < 4) {                           
         std::cerr << "Uso: " << argv[0] << " <tamaño_vector> <num_threads> <politica: 0=seq, 1=par, 2=par_unseq>\n";
         return 1;
@@ -15,7 +16,6 @@ int main(int argc, char* argv[]) {
     const int num_threads = std::atoi(argv[2]);
     const int policy = std::atoi(argv[3]);
 
-    // Configuración de hilos
     omp_set_num_threads(num_threads);
 
     const int seed = 10;
@@ -34,21 +34,21 @@ int main(int argc, char* argv[]) {
     case 0: { //seq
         sum = std::accumulate(vec.begin(), vec.end(), 0.0,
             [](double acc, double x) {
-                return acc + std::sqrt(std::log(x)) + x;
+                return acc + std::sqrt(std::log(x)/x) + x;
             });
         break;
     }
     case 1: { //par
         #pragma omp parallel for reduction(+:sum) 
         for (int i = 0; i < N; ++i) {
-            sum += std::sqrt(std::log(vec[i])) + vec[i];
+            sum += std::sqrt(std::log(vec[i])/vec[i]) + vec[i];
         }
         break;
     }
     case 2: { //par_unseq
         #pragma omp parallel for simd reduction(+:sum) 
         for (int i = 0; i < N; ++i) {
-            sum += std::sqrt(std::log(vec[i])) + vec[i];
+            sum += std::sqrt(std::log(vec[i])/vec[i]) + vec[i];
         }
         break;
     }
