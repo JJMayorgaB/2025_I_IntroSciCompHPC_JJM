@@ -15,7 +15,7 @@ echo "Limpiando archivos anteriores..."
 rm -f *.txt
 
 # Configuración
-VECTOR_SIZE=10000000
+VECTOR_SIZE=200000000
 MAX_THREADS=17
 
 echo "Ejecutando pruebas..."
