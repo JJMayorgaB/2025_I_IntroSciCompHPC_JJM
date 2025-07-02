@@ -1,3 +1,16 @@
+/*
+Antes de iniciar el codigo se debe advertir que se decidio trabajar con la paralelización directa con OpenMP
+en vez de usar la librería de paralelización de C++ (std::execution) debido a que al realizar pruebas diversas variando 
+el tamaño del vector, cantidad de hilos y funciones a paralelizar, no se observo una mejora significativa en el rendimiento
+y peor aun ninguna diferencia entre las distintas politicas de ejecución (secuencial, paralela y paralela con
+vectorización), al inicio se considero que la función std::reduce era poco exigente y no se notaba la diferencia entre
+las distintas politicas de ejecución, pero usando std::transform_reduce no se observo una mejora al utilizar funciones mas
+complejas que aumentaban siginificativamente el tiempo de ejecución. Puesto que aunque se observo usando htop que la ejecución
+en efecto estaba siendo paralelizada, el tiempo de ejecución no se reducia significativamente. Por otro lado, al usar OpenMP
+directamente si se pudo observar las diferencias entre las distintas politicas de ejecución y por estos motivos se opto por
+usar OpenMP directamente para la paralelización del código.
+*/
+
 // Bibliotecas necesarias para el programa
 #include <iostream>    // Para entrada/salida estándar
 #include <vector>      // Para usar vectores dinámicos
