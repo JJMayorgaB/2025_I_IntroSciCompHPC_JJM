@@ -1,114 +1,81 @@
-#include <iostream>
-#include <vector>
-#include <numeric>
-#include <random>
-#include <omp.h>
-#include <cmath>
-#include <algorithm>
-#include <execution>
-#include <iomanip>
+// Bibliotecas necesarias para el programa
+#include <iostream>    // Para entrada/salida estándar
+#include <vector>      // Para usar vectores dinámicos
+#include <numeric>     // Para funciones numéricas como accumulate
+#include <random>      // Para generación de números aleatorios
+#include <omp.h>       // Para OpenMP (paralelización)
+#include <cmath>       // Para funciones matemáticas (exp, cos, tan, log10)
 
 int main(int argc, char* argv[]) {
-    if (argc < 4) {                             //orden de los 3 argumentos en consola
-        std::cerr << "Uso: " << argv[0] << " <tamaño_vector> <num_threads> <modo: 0=seq, 1=par, 2=par_unseq>\n";
+
+    // Verificar que se proporcionen los argumentos correctos
+    if (argc < 4) {                           
+        std::cerr << "Uso: " << argv[0] << " <tamaño_vector> <num_threads> <politica: 0=seq, 1=par, 2=par_unseq>\n";
         return 1;
     }
 
-    const int N = std::atoi(argv[1]);
-    const int num_threads = std::atoi(argv[2]);
-    const int policy_type = std::atoi(argv[3]);
+    // Obtener parámetros de la línea de comandos
+    const int N = std::atoi(argv[1]);           // Tamaño del vector
+    const int num_threads = std::atoi(argv[2]); // Número de hilos para paralelización
+    const int policy = std::atoi(argv[3]);      // Política de ejecución (0, 1, o 2)
 
-    // Configuración de hilos
+    // Configurar el número de hilos para OpenMP
     omp_set_num_threads(num_threads);
 
-    // Generar vector de números aleatorios (reproducible)
-    const int seed = 10;
-    std::vector<double> vec(N);
-    std::mt19937 gen(seed);
-    std::uniform_real_distribution<double> dist(1.0, 2.0);
+    // Generar vector con números aleatorios reproducibles
+    const int seed = 10;                        // Semilla fija para reproducibilidad
+    std::vector<double> vec(N);                 // Vector de tamaño N
+    std::mt19937 gen(seed);                     // Generador Mersenne Twister
+    std::uniform_real_distribution<double> dist(1.0, 2.0); // Distribución uniforme entre 1.0 y 2.0
     
+    // Llenar el vector con números aleatorios
     for (auto& x : vec) {
         x = dist(gen);
     }
 
-    // Medir tiempo secuencial (siempre con 1 thread para referencia)
-    omp_set_num_threads(1);
-    double seq_result = 0.0;
-    double startseq = omp_get_wtime();
-    #pragma omp parallel
-    {
-        seq_result = std::transform_reduce(
-                    std::execution::seq, 
-                    vec.begin(), 
-                    vec.end(), 
-                    0.0,                    // valor inicial
-                    std::plus<double>(),    // operación de reducción (suma)
-                    [](double x) { return std::sqrt(std::abs(std::sin(x) * std::log(x))) + x; }  // transformación logarítmica
-                );
+    // Variables para medición de tiempo y resultado
+    double sum = 0.0;                           // Suma total del vector transformado
+    double start = omp_get_wtime();             // Tiempo de inicio
+
+    // Seleccionar estrategia de cálculo según la política especificada
+    switch (policy ) {
+    case 0: { //seq - Ejecución secuencial
+        // Usar std::accumulate con función lambda para transformación matemática
+        sum = std::accumulate(vec.begin(), vec.end(), 0.0,
+            [](double acc, double x) {
+                // Función matemática compleja: exp(cos(x)) * tan(x/2) + log10(x)
+                return acc + std::exp(std::cos(x)) * std::tan(x/2.0) + std::log10(x);
+            });
+        break;
     }
-    double endseq = omp_get_wtime();
-
-
-    // Suma del vector según el modo seleccionado
-    omp_set_num_threads(num_threads);
-
-    double sum = 0.0;
-    double start = omp_get_wtime();
-    #pragma omp parallel
-    {
-        switch(policy_type) {
-            case 0: // sequential
-                sum = std::transform_reduce(
-                    std::execution::seq, 
-                    vec.begin(), 
-                    vec.end(), 
-                    0.0,                    // valor inicial
-                    std::plus<double>(),    // operación de reducción (suma)
-                    [](double x) { return std::sqrt(std::abs(std::sin(x) * std::log(x))) + x; }  // transformación logarítmica
-                );
-                break;
-            case 1: // parallel
-                sum = std::transform_reduce(
-                    std::execution::par, 
-                    vec.begin(), 
-                    vec.end(), 
-                    0.0,                    // valor inicial
-                    std::plus<double>(),    // operación de reducción (suma)
-                    [](double x) { return std::sqrt(std::abs(std::sin(x) * std::log(x))) + x; }  // transformación logarítmica
-                );
-                break;
-            case 2: // parallel_unsequenced
-                sum = std::transform_reduce(
-                    std::execution::par_unseq, 
-                    vec.begin(), 
-                    vec.end(), 
-                    0.0,                    // valor inicial
-                    std::plus<double>(),    // operación de reducción (suma)
-                    [](double x) { return std::sqrt(std::abs(std::sin(x) * std::log(x))) + x; }  // transformación logarítmica
-                );
-                break;
-            default:
-                std::cerr << "Invalid policy type. Using sequential." << std::endl;
-                sum = std::transform_reduce(
-                    std::execution::seq, 
-                    vec.begin(), 
-                    vec.end(), 
-                    0.0,                    // valor inicial
-                    std::plus<double>(),    // operación de reducción (suma)
-                    [](double x) { return std::sqrt(std::abs(std::sin(x) * std::log(x))) + x; }  // transformación logarítmica
-                );
-                break;
+    case 1: { //par - Ejecución paralela con OpenMP
+        // Paralelizar el bucle for con reducción para la suma
+        #pragma omp parallel for reduction(+:sum) 
+        for (int i = 0; i < N; ++i) {
+            // Aplicar la misma función matemática compleja a cada elemento
+            sum += std::exp(std::cos(vec[i])) * std::tan(vec[i]/2.0) + std::log10(vec[i]);
         }
+        break;
     }
-    
+    case 2: { //par_unseq - Ejecución paralela con vectorización SIMD
+        // Paralelizar con SIMD (Single Instruction, Multiple Data)
+        #pragma omp parallel for simd reduction(+:sum) 
+        for (int i = 0; i < N; ++i) {
+            // Misma función matemática, pero optimizada para vectorización
+            sum += std::exp(std::cos(vec[i])) * std::tan(vec[i]/2.0) + std::log10(vec[i]);
+        }
+        break;
+    }
+    default:
+        std::cerr << "Politica de ejecución no valida\n";
+        return 1;
+    }
+
+    // Medir tiempo final y calcular duración
     double end = omp_get_wtime();
 
-    double speedup = (endseq-startseq)/(end - start);
-    double efficiency = speedup / num_threads;
-
-    std::cout << std::fixed << std::setprecision(8);
-    std::cout << num_threads << "\t" << speedup << "\t" << efficiency << std::endl;
+    // Mostrar el tiempo de ejecución en segundos
+    std::cout << end - start << "\n";
 
     return 0;
 }
-
