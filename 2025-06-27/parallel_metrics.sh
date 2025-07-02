@@ -19,4 +19,4 @@ done
 
 echo "Resultados guardados en $OUTPUT"
 
-python parallel_graph.py
+python parallel_graphs.py
