@@ -5,7 +5,6 @@
 #include <omp.h>
 #include <cmath>
 #include <algorithm>
-#include <execution>
 #include <iomanip>
 
 int main(int argc, char* argv[]) {
@@ -35,16 +34,13 @@ int main(int argc, char* argv[]) {
     omp_set_num_threads(1);
     double seq_result = 0.0;
     double startseq = omp_get_wtime();
-    seq_result = std::transform_reduce(
-                std::execution::seq, 
-                vec.begin(), 
-                vec.end(), 
-                0.0,                    // valor inicial
-                std::plus<double>(),    // operación de reducción (suma)
-                [](int x) { return std::log(x); }  // transformación logarítmica
-            );
+    
+    // Cálculo secuencial manual
+    for (int i = 0; i < N; ++i) {
+        seq_result += std::log(vec[i]);
+    }
+    
     double endseq = omp_get_wtime();
-
 
     // Suma del vector según el modo seleccionado
     omp_set_num_threads(num_threads);
@@ -54,45 +50,30 @@ int main(int argc, char* argv[]) {
 
     switch(policy_type) {
         case 0: // sequential
-            sum = std::transform_reduce(
-                std::execution::seq, 
-                vec.begin(), 
-                vec.end(), 
-                0.0,                    // valor inicial
-                std::plus<double>(),    // operación de reducción (suma)
-                [](double x) { return std::log(x); }  // transformación logarítmica
-            );
+            for (int i = 0; i < N; ++i) {
+                sum += std::log(vec[i]);
+            }
             break;
-        case 1: // parallel
-            sum = std::transform_reduce(
-                std::execution::par, 
-                vec.begin(), 
-                vec.end(), 
-                0.0,                    // valor inicial
-                std::plus<double>(),    // operación de reducción (suma)
-                [](double x) { return std::log(x); }  // transformación logarítmica
-            );
+            
+        case 1: // parallel with OpenMP
+            #pragma omp parallel for reduction(+:sum)
+            for (int i = 0; i < N; ++i) {
+                sum += std::log(vec[i]);
+            }
             break;
-        case 2: // parallel_unsequenced
-            sum = std::transform_reduce(
-                std::execution::par_unseq, 
-                vec.begin(), 
-                vec.end(), 
-                0.0,                    // valor inicial
-                std::plus<double>(),    // operación de reducción (suma)
-                [](double x) { return std::log(x); }  // transformación logarítmica
-            );
+            
+        case 2: // parallel_unsequenced with OpenMP SIMD
+            #pragma omp parallel for simd reduction(+:sum)
+            for (int i = 0; i < N; ++i) {
+                sum += std::log(vec[i]);
+            }
             break;
+            
         default:
             std::cerr << "Invalid policy type. Using sequential." << std::endl;
-            sum = std::transform_reduce(
-                std::execution::seq, 
-                vec.begin(), 
-                vec.end(), 
-                0.0,                    // valor inicial
-                std::plus<double>(),    // operación de reducción (suma)
-                [](double x) { return std::log(x); }  // transformación logarítmica
-            );
+            for (int i = 0; i < N; ++i) {
+                sum += std::log(vec[i]);
+            }
             break;
     }
 
@@ -106,4 +87,3 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
-
