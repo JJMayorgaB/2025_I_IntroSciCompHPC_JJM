@@ -43,7 +43,7 @@ int main(int argc, char* argv[]) {
                     vec.end(), 
                     0.0,                    // valor inicial
                     std::plus<double>(),    // operación de reducción (suma)
-                    [](double x) { return std::log(x); }  // transformación logarítmica
+                    [](double x) { return std::sqrt(std::abs(std::sin(x) * std::log(x))) + x; }  // transformación logarítmica
                 );
     }
     double endseq = omp_get_wtime();
@@ -64,7 +64,7 @@ int main(int argc, char* argv[]) {
                     vec.end(), 
                     0.0,                    // valor inicial
                     std::plus<double>(),    // operación de reducción (suma)
-                    [](double x) { return std::log(x); }  // transformación logarítmica
+                    [](double x) { return std::sqrt(std::abs(std::sin(x) * std::log(x))) + x; }  // transformación logarítmica
                 );
                 break;
             case 1: // parallel
@@ -74,7 +74,7 @@ int main(int argc, char* argv[]) {
                     vec.end(), 
                     0.0,                    // valor inicial
                     std::plus<double>(),    // operación de reducción (suma)
-                    [](double x) { return std::log(x); }  // transformación logarítmica
+                    [](double x) { return std::sqrt(std::abs(std::sin(x) * std::log(x))) + x; }  // transformación logarítmica
                 );
                 break;
             case 2: // parallel_unsequenced
@@ -84,7 +84,7 @@ int main(int argc, char* argv[]) {
                     vec.end(), 
                     0.0,                    // valor inicial
                     std::plus<double>(),    // operación de reducción (suma)
-                    [](double x) { return std::log(x); }  // transformación logarítmica
+                    [](double x) { return std::sqrt(std::abs(std::sin(x) * std::log(x))) + x; }  // transformación logarítmica
                 );
                 break;
             default:
@@ -95,7 +95,7 @@ int main(int argc, char* argv[]) {
                     vec.end(), 
                     0.0,                    // valor inicial
                     std::plus<double>(),    // operación de reducción (suma)
-                    [](double x) { return std::log(x); }  // transformación logarítmica
+                    [](double x) { return std::sqrt(std::abs(std::sin(x) * std::log(x))) + x; }  // transformación logarítmica
                 );
                 break;
         }
