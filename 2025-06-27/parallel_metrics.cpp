@@ -8,6 +8,7 @@
 #include <thread>
 #include <omp.h>
 #include <string>
+#include <cmath>
 
 class PerformanceMetrics {
 private:
@@ -25,8 +26,7 @@ public:
 void printUsage(const char* program_name);
 template<typename Func>
 double measureTime(Func&& func);
-long long sequentialReduce(const std::vector<int>& vec);
-long long parallelReduce(const std::vector<int>& vec, int policy_type);
+double parallelReduce(const std::vector<int>& vec, int policy_type);
 
 
 int main(int argc, char **argv) {
@@ -55,7 +55,7 @@ int main(int argc, char **argv) {
     
     // Medir tiempo secuencial (siempre con 1 thread para referencia)
     omp_set_num_threads(1);
-    long long seq_result = 0;
+    double seq_result = 0;
     double sequential_time = measureTime([&]() {
         seq_result = parallelReduce(vec, 0);
     });
@@ -64,7 +64,7 @@ int main(int argc, char **argv) {
     omp_set_num_threads(num_threads);
     
     // Medir tiempo paralelo
-    long long par_result = 0;
+    double  par_result = 0;
     double parallel_time = measureTime([&]() {
         par_result = parallelReduce(vec, execution_policy);
     });
@@ -89,7 +89,7 @@ PerformanceMetrics::PerformanceMetrics(double seq_time, double par_time, int thr
 
 // Calcular speedup
 double PerformanceMetrics::speedup() const {
-    return sequential_time / parallel_time;
+    return parallel_time / sequential_time;
 }
 
 // Calcular eficiencia
@@ -106,26 +106,52 @@ void PerformanceMetrics::printMetrics() const {
 // Función para medir tiempo de ejecución
 template<typename Func>
 double measureTime(Func&& func) {   
-    std::chrono::duration<double> diff;
-    auto start = std::chrono::steady_clock::now();
+    double start = omp_get_wtime();;
     func();
-    auto end = std::chrono::steady_clock::now();
-    diff = end-start;
-    return diff.count();
+    double end =  omp_get_wtime();;
+    return end-start;
 }
 
-// Función de reducción paralela
-long long parallelReduce(const std::vector<int>& vec, int policy_type) {
+// Función de reducción paralela con transformación logarítmica
+double parallelReduce(const std::vector<int>& vec, int policy_type) {
     switch(policy_type) {
         case 0: // sequential
-            return std::reduce(std::execution::seq, vec.begin(), vec.end());
+            return std::transform_reduce(
+                std::execution::seq, 
+                vec.begin(), 
+                vec.end(), 
+                0.0,                    // valor inicial
+                std::plus<double>(),    // operación de reducción (suma)
+                [](int x) { return std::log(static_cast<double>(x)); }  // transformación logarítmica
+            );
         case 1: // parallel
-            return std::reduce(std::execution::par, vec.begin(), vec.end());
+            return std::transform_reduce(
+                std::execution::par, 
+                vec.begin(), 
+                vec.end(), 
+                0.0,                    // valor inicial
+                std::plus<double>(),    // operación de reducción (suma)
+                [](int x) { return std::log(static_cast<double>(x)); }  // transformación logarítmica
+            );
         case 2: // parallel_unsequenced
-            return std::reduce(std::execution::par_unseq, vec.begin(), vec.end());
+            return std::transform_reduce(
+                std::execution::par_unseq, 
+                vec.begin(), 
+                vec.end(), 
+                0.0,                    // valor inicial
+                std::plus<double>(),    // operación de reducción (suma)
+                [](int x) { return std::log(static_cast<double>(x)); }  // transformación logarítmica
+            );
         default:
             std::cerr << "Invalid policy type. Using sequential." << std::endl;
-            return std::reduce(std::execution::seq, vec.begin(), vec.end());
+            return std::transform_reduce(
+                std::execution::seq, 
+                vec.begin(), 
+                vec.end(), 
+                0.0,                    // valor inicial
+                std::plus<double>(),    // operación de reducción (suma)
+                [](int x) { return std::log(static_cast<double>(x)); }  // transformación logarítmica
+            );
     }
 }
 
