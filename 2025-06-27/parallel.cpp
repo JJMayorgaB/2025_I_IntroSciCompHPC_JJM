@@ -35,14 +35,17 @@ int main(int argc, char* argv[]) {
     omp_set_num_threads(1);
     double seq_result = 0.0;
     double startseq = omp_get_wtime();
-    seq_result = std::transform_reduce(
-                std::execution::seq, 
-                vec.begin(), 
-                vec.end(), 
-                0.0,                    // valor inicial
-                std::plus<double>(),    // operación de reducción (suma)
-                [](double x) { return std::log(x); }  // transformación logarítmica
-            );
+    #pragma omp parallel
+    {
+        seq_result = std::transform_reduce(
+                    std::execution::seq, 
+                    vec.begin(), 
+                    vec.end(), 
+                    0.0,                    // valor inicial
+                    std::plus<double>(),    // operación de reducción (suma)
+                    [](double x) { return std::log(x); }  // transformación logarítmica
+                );
+    }
     double endseq = omp_get_wtime();
 
 
