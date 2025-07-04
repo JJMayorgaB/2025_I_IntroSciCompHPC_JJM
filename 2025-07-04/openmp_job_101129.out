@@ -1,0 +1,16 @@
+Starting OpenMP job on node: sala6.salafis.net
+Number of requested CPUs per task: 8
+OMP_NUM_THREADS set to: 8
+Running on only one thread. 
+Hello world from thid: 0, out of 1 .
+Hello world from thid: 6, out of 8 .
+Hello world from thid: 0, out of 8 .
+Hello world from thid: 2, out of 8 .
+Hello world from thid: 1, out of 8 .
+Hello world from thid: 7, out of 8 .
+Hello world from thid: 4, out of 8 .
+Hello world from thid: 3, out of 8 .
+Hello world from thid: 5, out of 8 .
+Running on only one thread, again. 
+Hello world from thid: 0, out of 1 .
+OpenMP job finished.
